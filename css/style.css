@@ -1858,3 +1858,12 @@ ul.profiles-dot li::before {
 .six-section.bg-none {
     background-color: white;
 }
+
+#pills-tab {
+    display: grid;
+    grid-template-columns: repeat(10, 2fr);
+}
+
+#pills-tab li button{
+    width: 100%;
+}
