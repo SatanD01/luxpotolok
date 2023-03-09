@@ -1867,3 +1867,28 @@ ul.profiles-dot li::before {
 #pills-tab li button{
     width: 100%;
 }
+
+.buy-btn {
+    margin-top: 10px;
+    display: flex;
+    background-color: #ffde00;
+    padding: 13px 12px;
+    border: #ffde00 solid 3px;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 25px;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.buy-btn:hover {
+    background-color: transparent;
+    color: #ffde00;
+}
+
+@media (min-width: 991px) {
+    .col-12.col-sm-12.col-lg-6.col-md-12.col-xl-6.mb-sm-2.mb-2 {
+        border-top-right-radius: 5rem;
+        border-bottom-right-radius: 5rem;
+    }
+}

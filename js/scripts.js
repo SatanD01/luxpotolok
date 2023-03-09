@@ -92,6 +92,18 @@ $(document).ready(function () {
         autoplayTimeout:1000,
         autoplayHoverPause:true
     });
+
+    $("#owl-catalog").owlCarousel({
+        slideSpeed : 300,
+        items : 1,
+        margin:50,
+        itemsDesktop : false,
+        itemsDesktopSmall : false,
+        itemsTablet: false,
+        itemsMobile : false,
+        autoHeight: true,
+
+    });
     // Get message after sent
     // $('#getintouch .p-sbm').click(function(){
     //        $('#get-success').empty();
@@ -162,5 +174,4 @@ $(document).ready(function () {
     //          location.href = this.href;
     //      });
     //  }
-
 });
